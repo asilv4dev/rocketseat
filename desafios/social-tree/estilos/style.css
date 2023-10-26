@@ -11,8 +11,9 @@
 
 * {
     margin: 0px;
-    font-family: var(--fonte-padrao);
     box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+    overflow-x: hidden;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
     margin: auto;
     width: 100vw;
     height: 100vh;
-    border: 7px solid purple;
 }
 
 .center {
@@ -33,7 +33,7 @@ body {
 .center img {
     height: 150px;
     max-width: 150px;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 50%;
     text-align: center;
     border: 2px solid var(--purple);
@@ -67,7 +67,7 @@ body {
 }
 
 .icons {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
