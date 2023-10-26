@@ -19,7 +19,7 @@ body {
     color: var(--body-bg-color);
 }
 
-#group {
+#top {
     margin: auto;
     width: 100vw;
     height: 100vh;
@@ -41,6 +41,8 @@ body {
 }
 
 .user {
+    margin-top: 10px;
+    margin-bottom: 30px;
     color: var(--purple);
     text-align: center;
 }
@@ -50,18 +52,25 @@ body {
 }
 
 .links a {
+    font-weight: bold;
     text-decoration: none;
     color: var(--purple);
 }
 
 .border {
     margin: auto;
+    margin-bottom: 15px;
     height: 49px;
     width: 326px;
+    padding: 9px;
     border: 2px solid var(--purple);
 }
 
 .icons {
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
+}
+
+.icons img {
+    padding: 10px;
 }
