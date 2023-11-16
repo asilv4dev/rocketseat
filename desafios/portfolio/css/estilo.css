@@ -156,7 +156,7 @@ body {
 }
 
 .technology {
-    margin-left: 140px;
+    margin-left: 1px;
 }
 
 /* end section project 1*/
@@ -198,6 +198,10 @@ body {
     font-size: 14px;
 }
 
+.Ellipse {
+    margin-left: 120px;
+}
+
 .value {
     display: flex;
     align-items: center;
@@ -217,7 +221,7 @@ body {
 }
 
 .technology-2 {
-    margin-left: 140px;
+    margin-left: 1px;
 }
 
 
