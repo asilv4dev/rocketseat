@@ -12,7 +12,7 @@
 body {
     position: absolute;
     background-color: var(--body-bg-color);
-    border: 2px solid fuchsia;
+
 }
 
 .container {
@@ -106,7 +106,7 @@ body {
     left: 440px;
     bottom: 273px;
 
-    width: 400px;
+    width: 390px;
     height: 186px;
     color: var(--text-color);
     padding-top: 20px;
@@ -156,5 +156,68 @@ body {
 }
 
 .technology {
-    margin-left: 160px;
+    margin-left: 140px;
 }
+
+/* end section project 1*/
+
+/* start section project 2*/
+
+.project-2 {
+    position: relative;
+    left: 850px;
+    bottom: 459px;
+
+    width: 390px;
+    height: 186px;
+    color: var(--text-color);
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+    background-color: var(--bg-cards);
+}
+
+.project-2 h3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.project-2 img {
+    width: 20px;
+    
+}
+
+.project-2 p {
+    padding-top: 30px;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.value {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.value span {
+    padding-left: 7px;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.git-branch {
+    margin-left: 20px;
+
+}
+
+.technology-2 {
+    margin-left: 140px;
+}
+
+
