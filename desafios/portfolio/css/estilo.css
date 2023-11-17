@@ -15,17 +15,13 @@ body {
 
 }
 
-.container {
-    
-}
-
 /* start profile */
 .profile {
     width: 348px;
     margin-left: 40px;
     border-radius: 20px;
     background-color: var(--bg-cards);
-    box-shadow: 2px 2px 2px 1px black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.315);
 }
 
 .profile img {
@@ -79,7 +75,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.315);
     
 }
 
@@ -112,7 +108,7 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.315);
     background-color: var(--bg-cards);
 
 } 
@@ -174,7 +170,7 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.315);
     background-color: var(--bg-cards);
 }
 
@@ -223,5 +219,112 @@ body {
 .technology-2 {
     margin-left: 1px;
 }
+
+/*end section project-2*/
+
+.links {
+    position: relative;
+    left: 40px;
+    bottom: 478px;
+    width: 348px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.315);
+
+
+}
+
+.links span {
+    display: inline-block;
+    color: var(--text-color);
+    margin-left: 45px;
+    font-weight: 400px;
+    font-size: 12px;
+}
+
+.links img {
+    margin-bottom: 15px;
+
+}
+
+/*end section links*/
+
+/*start section social media*/
+
+.Brasil {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 803px;
+    font-weight: 400px;
+    font-size: 13px;
+}
+
+.Rocketseat {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 775px;
+    font-weight: 400px;
+    font-size: 13px;
+
+}
+
+.biro-1 {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 751px;
+    font-weight: 400px;
+    font-size: 13px;
+
+}
+
+.name {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 723px;
+    font-weight: 400px;
+    font-size: 13px;
+
+}
+
+.biro-2 {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 698px;
+    font-weight: 400px;
+    font-size: 13px;
+
+}
+
+.url {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 672px;
+    font-weight: 400px;
+    font-size: 13px;
+}
+
+.e-mail {
+    color: var(--text-color);
+    position: relative;
+    left: 130px;
+    bottom: 647px;
+    font-weight: 400px;
+    font-size: 13px;
+
+}
+
+
+
 
 
