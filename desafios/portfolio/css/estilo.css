@@ -254,7 +254,7 @@ body {
 
 /*end section links*/
 
-/*start section social media*/
+/*start divs section links*/
 
 .Brasil {
     color: var(--text-color);
@@ -323,6 +323,31 @@ body {
     font-size: 13px;
 
 }
+
+/*end divs section links*/
+
+.recent-posts {
+    position: relative;
+    left: 390px;
+    bottom: 950px;
+    width: 800px;
+    height: 86px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-cards);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.315);
+}
+
+.recent-posts a {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 
 
